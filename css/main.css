@@ -1,0 +1,32 @@
+#profilepic{
+	border-radius: 50%;
+    padding: 10px 60px;
+}
+#profilepicspan{
+	float: right;
+}
+@media screen and (min-width: 760px) { 
+    #navArea {
+        height: 50px;
+    }
+}
+@media screen and (max-width: 760px) { 
+    .name {
+        height: initial;
+        padding: initial;
+    }
+    #profilepicspan{
+    	float: none;
+    	/*padding: 0px 0px 0px;*/
+    	margin: 500px;
+    }
+}
+#navArea{
+    color: black;
+}
+.padding20{
+	padding: 20px;
+}
+body{
+    text-align: justify;
+}
